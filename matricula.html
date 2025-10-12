@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/matricula.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  
+</head>
+
+<body>
+  <nav class="nav">
+
+    <img src="img/thislogotm 1.png" alt="César Souza Logo" class="logo">
+
+    <div>
+      <ul class="nav-center">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre mim</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <ul class="nav-end">
+        <li><a href="https://www.facebook.com/login/?locale=pt_BR" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#" aria-label="Telefone"><i class="fa-solid fa-phone"></i></a></li>
+        <button class="button"><a href="https://www.whatsapp.com/?lang=pt" target="_blank">Fale comigo</a></button>
+    </div>
+
+
+  </nav>
+
+
+  <div class="container">
+
+    <section class="form-section">
+
+      <h2>👤 Informações Pessoais</h2>
+      <p>Dados básicos para seu cadastro</p>
+
+      <div class="form-grid">
+        <div class="input-group">
+          <label>Nome Completo *</label>
+          <input type="text" placeholder="Digite seu nome completo">
+        </div>
+
+        <div class="input-group">
+          <label>Email *</label>
+          <input type="email" placeholder="seu@email.com">
+        </div>
+
+        <div class="input-group">
+          <label>Telefone *</label>
+          <input type="text" placeholder="(11) 99999-9999">
+        </div>
+
+        <div class="input-group">
+          <label>Idade *</label>
+          <input type="number" placeholder="ex: 25">
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="form-section">
+
+      <h2>🏋️‍♂️ Objetivos e Experiência</h2>
+      <p>Conte-nos sobre seus objetivos fitness</p>
+
+      <div class="input-group">
+        <label>Qual seu principal objetivo?</label>
+        <input type="text" placeholder="Selecione seu objetivo">
+      </div>
+
+      <div class="input-group">
+        <label>Experiência com exercícios *</label>
+        <input type="text" placeholder="Selecione sua experiência">
+      </div>
+
+    </section>
+
+
+    <section class="form-section">
+
+      <h2>🩺 Informações de Saúde</h2>
+      <p>Essencial para sua segurança durante os treinos</p>
+
+      <div class="input-group">
+        <label>Doenças ou condições médicas</label>
+        <textarea
+          placeholder="Descreva qualquer doença, condição médica ou limitação física que possua (Diabetes, asma, etc.)"></textarea>
+      </div>
+
+    </section>
+
+
+    <section class="form-section">
+
+      <h2>💊 Medicamentos</h2>
+      <p>Importante para ajustar seu plano de treino</p>
+
+      <div class="input-group">
+        <label>Medicamentos em uso</label>
+        <textarea
+          placeholder="Liste todos os medicamentos que você toma atualmente, incluindo dosagem e frequência (ex: losartana 50mg)"></textarea>
+        <p class="note">Se não toma nenhum medicamento, deixe em branco.</p>
+      </div>
+
+    </section>
+
+
+    <section class="form-section">
+
+      <h2>📞 Contato de Emergência</h2>
+      <p>Para sua segurança durante os treinos</p>
+
+      <div class="form-grid">
+        <div class="input-group">
+          <label>Nome *</label>
+          <input type="text" placeholder="Nome completo">
+        </div>
+
+        <div class="input-group">
+          <label>Telefone do contato *</label>
+          <input type="text" placeholder="(11) 99999-9999">
+        </div>
+      </div>
+
+    </section>
+
+
+    <div class="buttons">
+      <button class="cancel">Cancelar</button>
+      <button class="submit">Finalizar Matrícula</button>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-top">
+
+      <div class="footer-logo">
+
+        <img src="img/novalogo.png" alt="César Souza Logo" class="logo">
+
+        <p>Transformando vidas através do treinamento personalizado e acompanhamento dedicado para seus
+          objetivos.</p>
+      </div>
+
+      <div class="footer-collumn">
+        <h3>Contato</h3>
+        <p><a href="https://wa.me/5581967919009" target="_blank">(81) 96791-9009</a></p>
+        <p><a href="mailto:cesar@personaltrainer.com">cesar@personaltrainer.com</a></p>
+        <p>Recife, PE</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Sobre</h3>
+        <a href="#">Menções legais</a>
+        <a href="#">Política de privacidade</a>
+        <a href="#">Página de ajuda</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Redes Sociais</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="mailto:cesarsouzapersonal@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="newsletter">
+      <h3>Fique por dentro das novidades</h3>
+      <p>Receba dicas exclusivas de treino e alimentação direto no seu email</p>
+      <form>
+        <input type="email" placeholder="Seu melhor email" required>
+        <button type="submit">Inscrever</button>
+      </form>
+    </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 César Souza Personal Trainer. Todos os direitos reservados.</p>
+      <div class="links">
+        <a href="#">Termos de uso</a>
+        <a href="#">Privacidade</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+
+
+
+  </footer>
+</body>
+
+</html>

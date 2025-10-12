@@ -1,0 +1,208 @@
+
+li{
+  list-style: none;
+}
+
+.planos {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: "Space Grotesk";
+}
+
+.principal-planos {
+  text-align: center;
+}
+
+.principal-planos span {
+  color: #FF5D18;
+}
+
+.planos h1 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.planos h1 span {
+  color: #b57c3d;
+}
+
+
+.grid-planos {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+
+.card-plano-mensal {
+  background: #CEC3C0;
+  background: linear-gradient(180deg, rgba(206, 195, 192, 1) 0%, rgba(76, 76, 76, 1) 50%);
+ border-radius: 25px;
+  width: 280px;
+  padding: 30px 25px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+}
+
+.card-plano-mensal p{
+  margin-top: -35px;
+}
+
+.card-plano-mensal:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.card-plano-mensal h1{
+  color: black;
+}
+
+.card-plano-mensal li {
+  list-style: none;
+  margin-bottom: 24px;
+  
+}
+
+.renovacao {
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+
+.card-plano-mensal button {
+  color: white;
+  background-color: black;
+  width: 230px;
+  height: 62px;
+  margin-right: 80px;
+  border-radius: 20px;
+
+}
+.card-plano-mensal a{
+   display: inline-block;
+     text-decoration: none;
+     color: white; 
+}
+
+.card-plano-mensal span {
+  color: #FF5D18;
+}
+
+.card-plano-semestral {
+  background: #FFFDF3;
+  border-radius: 25px;
+  width: 280px;
+  padding: 30px 25px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: black;
+}
+
+.card-plano-semestral:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.card-plano-semestral h1 {
+  color: black;
+  margin-top: 5px;
+  font-size: 32px;
+
+  margin-bottom: 40px;
+}
+
+.card-plano-semestral li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.renovacao {
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+
+.card-plano-semestral button {
+  color: white;
+  background-color: black;
+  width: 230px;
+  height: 62px;
+  margin-right: 80px;
+  border-radius: 20px;
+
+}
+.card-plano-semestral a{
+  display: inline-block;
+     text-decoration: none;
+     color: white; 
+}
+
+
+
+.card-plano-anual {
+  background: #FF5D18;
+  background: linear-gradient(180deg, rgba(255, 93, 24, 1) 0%, rgba(227, 132, 24, 1) 50%);
+  border-radius: 25px;
+  width: 280px;
+  padding: 30px 25px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: black;
+
+
+}
+
+.card-plano-anual:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.card-plano-anual h1 {
+  color: black;
+  margin-top: 5px;
+  font-size: 32px;
+
+  margin-bottom: 40px;
+}
+
+.card-plano-anual li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.renovacao {
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+
+.card-plano-anual button {
+  display: inline-block; 
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 230px;
+  height: 62px;
+  margin-right: 80px;
+  border-radius: 20px;
+
+}
+  .card-plano-anual a {
+     display: inline-block;
+     text-decoration: none;
+     color: white; 
+  }
+ 
+

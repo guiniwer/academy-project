@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding: 0 16px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.container-sobre {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 48px;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+.imagem img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 2px solid #ff4d00;
+    background: #181818;
+    box-shadow: 0 0 24px rgba(255,77,0,0.10);
+    display: block;
+}
+
+.texto h1 {
+    font-size: 32px;
+    color: #ff4d00;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.texto p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.caixas-infos {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.missao-box, .certificados-box {
+    background: #181f2a;
+    border: 1.5px solid #ff4d00;
+    border-radius: 14px;
+    padding: 24px 28px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 260px;
+}
+
+.missao-box h2 {
+    color: #ff4d00;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.missao-box p {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.certificados-box h2 {
+    color: #ff4d00;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cert-item {
+    background: #232323;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    border-left: 4px solid #ff4d00;
+}
+
+.cert-item i {
+    color: #ff4d00;
+    font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .container-sobre {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        justify-items: center;
+    }
+    .imagem img {
+        width: 220px;
+        height: 220px;
+    }
+    .caixas-infos {
+        flex-direction: column;
+        gap: 18px;
+    }
+}

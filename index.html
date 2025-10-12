@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>César Souza Personal Trainer</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./styles/header.css">
+   <link rel="stylesheet" href="./styles/footer.css">
+   <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+          <nav class="nav">
+
+            <img src="img/thislogotm 1.png" alt="César Souza Logo" class="logo">
+
+            <div>
+                <ul class="nav-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre mim</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="resultados.html">Resultados</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="nav-end">
+                    <li><a href="https://www.facebook.com/login/?locale=pt_BR" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="Telefone"><i class="fa-solid fa-phone"></i></a></li>
+                  <button class="button"><a href="https://www.whatsapp.com/?lang=pt" target="_blank">Fale comigo</a></button>
+                </ul>
+                
+            </div>
+
+
+        </nav>
+    
+<!---CONTEUDO DA PAGINA-->    
+    <main>
+        <section class="intro">
+            <div class="container">
+                <article class="intro-content">
+                    <header class="intro-text">
+                        <h1 class="intro-title">TRANSFORME SEU<br> <span class="highlight">CORPO.</span><br>ELEVE SUA <span class="highlight">VIDA.</span></h1>
+                        <p class="intro-subtitle">Saúde, estética e autoestima: Nós unimos tudo isso em um método que já<br> impactou milhares de pessoas. E agora, pode transformar você.</p>
+                        <nav class="intro-buttons">
+                            <a href="https://www.whatsapp.com/?lang=pt" target="_blank" class="btn-primary">FALE COMIGO</a>
+                            <a href="planos.html" class="btn-secondary">MEUS PLANOS</a>
+                        </nav>
+                    </header>
+                    <figure class="intro-image">
+                        <img src="img/img-home.png" alt="César Souza Personal Trainer" class="intro-img">
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Carrossel de Depoimentos -->
+        <section class="carrossel-depoimentos" aria-label="Depoimentos de clientes">
+            <div class="container">
+                <div class="slider-container">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    
+                    <div class="slider-wrapper">
+                        <div class="slide">
+                            <img src="img/img-carrossel1.jpeg" alt="Cliente 1">
+                            <div class="slide-content">
+                                <blockquote>
+                                    <p>"Eu já tinha tentado de tudo e nunca via diferença. Com o acompanhamento do César, em poucas semanas comecei a ver resultado e hoje treino com prazer! Incríveis!"</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/img-carrossel2.jpeg" alt="Cliente 2">
+                            <div class="slide-content">
+                                <blockquote>
+                                    <p>"Antes eu vivia cansado e sem motivação. Agora tenho energia o dia todo e me sinto mais confiante. A metodologia é simples, mas transforma de verdade. Motivada, superando limites!"</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/img-carrossel3.jpeg" alt="Cliente 3">
+                            <div class="slide-content">
+                                <blockquote>
+                                    <p>"Não foi só meu corpo que mudou. Aprendi a cuidar da minha mente, da minha alimentação e da minha disciplina. Foi o melhor investimento que já fiz!"</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-nav">
+                        <label for="slide1" class="nav-dot"></label>
+                        <label for="slide2" class="nav-dot"></label>
+                        <label for="slide3" class="nav-dot"></label>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Planos de Preços -->
+        <section id="planos" class="preco">
+            <div class="container">
+                <article class="preco-content">
+                    <figure class="preco-image">
+                        <img src="img/img-hometreino.png" alt="César Souza Personal Trainer" class="preco-img">
+                    </figure>
+                    <article class="preco-card featured">
+                        <span class="plano-badge">Mais popular</span>
+                        <header>
+                            <h3 class="plano-name">Plano Foco Total</h3>
+                            <p class="plano-preco">
+                                <span class="currency">R$</span>
+                                <span class="amount">1320</span>
+                            </p>
+                        </header>
+                        <ul class="plano-recursos">
+                            <li>Otimização de vida e Performance</li>
+                            <li>Análise mensal de performance, técnica e otimização de carga</li>
+                            <li>Treinamento com Estratégia de elite.</li>
+                            <li>Garrafa térmica personalizada de Elite</li>
+                            <li>12 Meses (Melhor custo/benefício)</li>
+                            <li>8 Aulas Extras de otimização</li>
+                            <li>Acesso à comunidade Exclusiva</li>
+                            <li>O compromisso que garante a sua evolução de Elite!</li>
+                        </ul>
+                        <footer>
+                            <a href="planos.html" class="plano-button">Ver Planos</a>
+                        </footer>
+                    </article>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Depoimentos de Alunos -->
+        <section class="depoimentos">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">O QUE DIZEM NOSSOS ALUNOS</h2>
+                    <p class="section-subtitle">Depoimentos reais de quem transformou sua vida</p>
+                </header>
+                <div class="depoimentos-grid" role="list">
+                    <article class="depoimento-card" role="listitem">
+                        <span class="quote-icon" aria-hidden="true">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </span>
+                        <blockquote class="depoimento-text">"Eu tentei de tudo, mas só com esse acompanhamento entendi o que meu corpo precisava. Em 4 meses, recuperei minha autoestima e hoje tenho prazer em me olhar no espelho."</blockquote>
+                        <footer class="depoimento-author">
+                            <span class="author-avatar" aria-hidden="true">PA</span>
+                            <address class="author-info">
+                                <h4 class="author-name">Patricia Aguiar</h4>
+                                <p class="author-age">32 anos</p>
+                            </address>
+                        </footer>
+                    </article>
+                    <article class="depoimento-card" role="listitem">
+                        <span class="quote-icon" aria-hidden="true">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </span>
+                        <blockquote class="depoimento-text">"Não é só sobre estética. Hoje, durmo melhor, me alimento bem e treino com foco. O acompanhamento fez TODA a diferença."</blockquote>
+                        <footer class="depoimento-author">
+                            <span class="author-avatar" aria-hidden="true">JL</span>
+                            <address class="author-info">
+                                <h4 class="author-name">João Luiz</h4>
+                                <p class="author-age">29 anos</p>
+                            </address>
+                        </footer>
+                    </article>
+                    <article class="depoimento-card" role="listitem">
+                        <span class="quote-icon" aria-hidden="true">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </span>
+                        <blockquote class="depoimento-text">"Achava que academia não era pra mim. Hoje eu sou a prova viva de que qualquer um pode mudar com o apoio certo."</blockquote>
+                        <footer class="depoimento-author">
+                            <span class="author-avatar" aria-hidden="true">CA</span>
+                            <address class="author-info">
+                                <h4 class="author-name">Carla Araújo</h4>
+                                <p class="author-age">27 anos</p>
+                            </address>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Estatísticas -->
+        <section class="estatisticas">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Transformações que Inspiram</h2>
+                    <p class="section-subtitle">Venha conhecer a história de quem já fez a diferença!</p>
+                    <h3 class="stats-subtitle">NÚMEROS QUE FALAM POR SI</h3>
+                </header>
+                <div class="estatisticas-grid" role="list">
+                    <article class="estat-card" role="listitem">
+                        <span class="estat-icon" aria-hidden="true">
+                            <i class="fa-solid fa-user-group"></i>
+                        </span>
+                        <p class="estat-number">+500</p>
+                        <p class="estat-label">Alunos Ativos</p>
+                    </article>
+                    <article class="estat-card" role="listitem">
+                        <span class="estat-icon" aria-hidden="true">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </span>
+                        <p class="estat-number">+200</p>
+                        <p class="estat-label">Transformações Completas</p>
+                    </article>
+                    <article class="estat-card" role="listitem">
+                        <span class="estat-icon" aria-hidden="true">
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <p class="estat-number">100%</p>
+                        <p class="estat-label">Dedicação para Cada Aluno</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Perguntas Frequentes -->
+        <section class="faq">
+            <div class="container">
+                <header>
+                    <h2 class="section-title">Perguntas Frequentes</h2>
+                </header>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion1" class="accordion-input">
+                        <label for="accordion1" class="accordion-label">
+                            <span>Os treinos são adaptados para iniciantes?</span>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Sim. Todo programa é feito de acordo com seu nível atual, respeitando limites e evoluindo com segurança.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion2" class="accordion-input">
+                        <label for="accordion2" class="accordion-label">
+                            <span>Posso treinar em casa?</span>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Sim. Os treinos podem ser feitos em casa, com ou sem equipamentos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion3" class="accordion-input">
+                        <label for="accordion3" class="accordion-label">
+                            <span>O acompanhamento é individual?</span>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Sim, cada aluno tem plano e suporte exclusivos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <input type="checkbox" id="accordion4" class="accordion-input">
+                        <label for="accordion4" class="accordion-label">
+                            <span>Em quanto tempo vejo resultados?</span>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Isso varia conforme o comprometimento, mas geralmente em 4 a 8 semanas já há mudanças perceptíveis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!----Aqui começa o footer-->
+    <footer class="footer">
+        <div class="footer-top">
+
+            <div class="footer-logo">
+
+                <img src="img/novalogo.png" alt="César Souza Logo" class="logo">
+
+                <p>Transformando vidas através do treinamento personalizado e acompanhamento dedicado para seus
+                    objetivos.</p>
+            </div>
+
+            <div class="footer-collumn">
+                <h3>Contato</h3>
+                <p><a href="https://wa.me/5581967919009" target="_blank">(81) 96791-9009</a></p>
+                <p><a href="mailto:cesar@personaltrainer.com">cesar@personaltrainer.com</a></p>
+                <p>Recife, PE</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Sobre</h3>
+                <a href="#">Menções legais</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Página de ajuda</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Redes Sociais</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="mailto:cesarsouzapersonal@gmail.com">Email</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="newsletter">
+            <h3>Fique por dentro das novidades</h3>
+            <p>Receba dicas exclusivas de treino e alimentação direto no seu email</p>
+            <form>
+                <input type="email" placeholder="Seu melhor email" required>
+                <button type="submit">Inscrever</button>
+            </form>
+        </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 César Souza Personal Trainer. Todos os direitos reservados.</p>
+            <div class="links">
+                <a href="#">Termos de uso</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+</body>

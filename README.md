@@ -1,0 +1,1 @@
+Este projeto foi desenvolvido em grupo como parte das atividades da turma de Front-End. A proposta foi criar um site moderno e responsivo para um personal trainer, com o objetivo de divulgar seus planos de treino, resultados de alunos e informações profissionais de forma clara e atrativa.
